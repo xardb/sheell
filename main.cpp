@@ -14,9 +14,8 @@ int main() {
 
 //    while (true) {
         cout << "₽ ";
-        if (!getline(cin, input)) {
-            break; // Ctrl+D
-        }
+        getline(cin, input);
+
 
 //        if (input.empty()) continue;
 //        write_file << input << endl;
@@ -26,9 +25,9 @@ int main() {
 //        if (input.find("echo ") == 0) {
 //            cout << input.substr(5) << endl;
 //        } else {
-            cout << input << endl;
+//            cout << input << endl;
 //        }
-    }
+//    }
 //    write_file.close();
 //    cout << "Выход" << endl;
 }
