@@ -28,6 +28,7 @@ int main() {
 //            cout << input << endl;
 //        }
 //    }
+
 //    write_file.close();
 //    cout << "Выход" << endl;
 }
