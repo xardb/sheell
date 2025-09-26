@@ -12,10 +12,6 @@ int main() {
 
     cout << "мой шелл :)" << endl;
 
-
-
-
-
     while (true) {
         cout << "₽ ";
         if (!getline(cin, input)) {
